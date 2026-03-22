@@ -6,7 +6,7 @@
 
 ## View the Deck
 
-**[→ operantlabs.github.io/pitch-deck/pitch-deck.html](https://operantlabs.github.io/pitch-deck/pitch-deck.html)**
+**[→ operantlabs.github.io/pitch-deck/pitch-deck.html](https://operantlabs.github.io/pitch-deck/)**
 
 ---
 
