@@ -239,7 +239,7 @@ h2{font-size:clamp(26px,3.6vw,48px);font-weight:800;line-height:1.04;letter-spac
 <!-- ══ 03 VALIDATION ═════════════════════════════ -->
 <section class="slide" id="s3">
   <div class="sl"><span>03 / 10</span><div class="dot"></div><span>Validation</span><div class="dot"></div><span class="red">Real Evidence</span></div>
-  <h2>Tested on <span class="r">200+ real targets.</span><br>Loved by real users.</h2>
+  <h2>Tested across <span class="r">200+ targets.</span><br>Loved by real users.</h2>
   <p class="tag">Not a prototype. Tested live.</p>
 
   <div class="tc">
@@ -247,8 +247,8 @@ h2{font-size:clamp(26px,3.6vw,48px);font-weight:800;line-height:1.04;letter-spac
       <div class="g2" style="margin-bottom:14px">
         <div class="card" style="text-align:center">
           <div class="big" style="font-size:44px">200+</div>
-          <div class="ct">real sites tested</div>
-          <div class="cd">Live targets, not benchmarks</div>
+          <div class="ct">targets tested</div>
+          <div class="cd">CTF platforms &amp; bug bounty programs</div>
         </div>
         <div class="card" style="text-align:center">
           <div class="big" style="font-size:44px">51</div>
@@ -323,7 +323,7 @@ h2{font-size:clamp(26px,3.6vw,48px);font-weight:800;line-height:1.04;letter-spac
         <span style="font-size:8px;color:var(--mu);display:block;margin-bottom:8px">claude_desktop_config.json</span>
 <span class="kw">"operant"</span>: {
   <span class="kw">"type"</span>: <span class="st2">"http"</span>,
-  <span class="kw">"url"</span>: <span class="st2">"https://operant-mcp.fly.dev/mcp"</span>
+  <span class="kw">"url"</span>: <span class="st2">"https://mcp.operantlabs.com/mcp"</span>
 }
       </div>
     </div>
@@ -487,7 +487,7 @@ h2{font-size:clamp(26px,3.6vw,48px);font-weight:800;line-height:1.04;letter-spac
       <div style="width:28px;height:28px;border-radius:50%;border:1px solid var(--rd);display:flex;align-items:center;justify-content:center;font-family:var(--m);font-size:10px;color:var(--rd);margin-bottom:10px">01</div>
       <div style="font-size:13px;font-weight:700;margin-bottom:4px">Reduce Real Breach Risk</div>
       <div style="font-size:11px;color:var(--mu);line-height:1.6;margin-bottom:10px">97.3% CVE detection · 0.2% false positives. Only proven exploitable findings.</div>
-      <div class="code" style="font-size:8.5px;line-height:1.8"><span style="background:rgba(224,90,78,.2);color:var(--rd);padding:1px 4px;font-size:7.5px">CRIT</span> CVE-2024-3094<br><span style="color:var(--am)">HIGH</span> CVE-2024-1708<br><span style="color:var(--bl,#4a9eff)">MED&nbsp;</span> CVE-2023-4966</div>
+      <div class="code" style="font-size:8.5px;line-height:1.8"><span style="background:rgba(224,90,78,.2);color:var(--rd);padding:1px 4px;font-size:7.5px">CRIT</span> Remote Code Execution<br><span style="color:var(--am)">HIGH</span> SQL Injection (auth bypass)<br><span style="color:var(--bl,#4a9eff)">MED&nbsp;</span> SSRF via open redirect</div>
     </div>
     <div style="background:var(--c1);padding:22px 24px">
       <div style="font-family:var(--m);font-size:8px;color:var(--mu);margin-bottom:8px">[ 02 /04 ]</div>
@@ -501,7 +501,7 @@ h2{font-size:clamp(26px,3.6vw,48px);font-weight:800;line-height:1.04;letter-spac
       <div style="width:28px;height:28px;border-radius:50%;border:1px solid var(--rd);display:flex;align-items:center;justify-content:center;font-family:var(--m);font-size:10px;color:var(--rd);margin-bottom:10px">03</div>
       <div style="font-size:13px;font-weight:700;margin-bottom:4px">Keep Pace With Modern Dev</div>
       <div style="font-size:11px;color:var(--mu);line-height:1.6;margin-bottom:10px">10,000+ tests per deploy in CI/CD. Always-on, not point-in-time.</div>
-      <div class="code" style="font-size:8.5px;line-height:1.8"><span style="color:var(--mu)">$ </span><span style="color:var(--t2)">nmap -sV 10.0.0.1</span><br><span style="color:var(--gn)">80/tcp open http</span><br><span style="color:var(--rd);font-weight:600">[!] CRITICAL detected</span></div>
+      <div class="code" style="font-size:8.5px;line-height:1.8"><span style="color:var(--mu)">$ </span><span style="color:var(--t2)">operant scan target.example.com</span><br><span style="color:var(--gn)">80/tcp open http</span><br><span style="color:var(--rd);font-weight:600">[!] CRITICAL detected</span></div>
     </div>
     <div style="background:var(--c1);padding:22px 24px">
       <div style="font-family:var(--m);font-size:8px;color:var(--mu);margin-bottom:8px">[ 04 /04 ]</div>
@@ -556,7 +556,7 @@ h2{font-size:clamp(26px,3.6vw,48px);font-weight:800;line-height:1.04;letter-spac
       <div style="font-family:var(--m);font-size:8px;color:var(--rd);letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px">The Product</div>
       <div class="big" style="font-size:34px">5 min</div>
       <div class="ct">from zero to first pentest</div>
-      <div class="cd">97.3% detection · 0.2% FP · 200+ real targets tested · live demo now.</div>
+      <div class="cd">97.3% detection · 0.2% FP · validated across 200+ targets · live demo now.</div>
     </div>
   </div>
 
