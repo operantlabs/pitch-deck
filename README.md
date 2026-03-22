@@ -35,6 +35,7 @@ Built with MCP (Model Context Protocol) — plugs directly into Claude Code and 
 - [operantlabs.com](https://operantlabs.com)
 - [github.com/operantlabs/operant-mcp](https://github.com/operantlabs/operant-mcp)
 - [Pitch Deck (live)](https://operantlabs.github.io/pitch-deck/)
+- [Pitch Deck (PPTX)](./operant_deck.pptx)
 
 ---
 
